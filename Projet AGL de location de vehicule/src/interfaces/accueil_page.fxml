@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="999.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="122.0" prefHeight="545.0" prefWidth="71.0" />
+      <AnchorPane layoutX="213.0" layoutY="55.0" prefHeight="61.0" prefWidth="786.0" style="-fx-background-color: none;">
+         <children>
+            <ImageView fitHeight="51.0" fitWidth="43.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/pngeggza.png" />
+               </image>
+            </ImageView>
+            <Text fill="#01979b" layoutX="60.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 20;" text="Accueil" wrappingWidth="71.0" />
+         </children>
+      </AnchorPane>
+      <Separator layoutX="213.0" layoutY="120.0" prefHeight="4.0" prefWidth="786.0" AnchorPane.leftAnchor="213.0" AnchorPane.rightAnchor="0.0" />
+      <AnchorPane prefHeight="173.0" prefWidth="206.0">
+         <children>
+            <ImageView fitHeight="153.0" fitWidth="195.0" layoutX="3.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/LOCAR.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="259.0" layoutY="134.0" mnemonicParsing="false" prefHeight="250.0" prefWidth="335.0" style="-fx-background-color: #01979B;" AnchorPane.leftAnchor="259.0" AnchorPane.rightAnchor="405.0">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/gcfbvj.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="606.0" layoutY="395.0" mnemonicParsing="false" prefHeight="250.0" prefWidth="335.0" style="-fx-background-color: #01979B;" AnchorPane.leftAnchor="606.0" AnchorPane.rightAnchor="58.0">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/pngegg%20('').png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="259.0" layoutY="395.0" mnemonicParsing="false" prefHeight="250.0" prefWidth="335.0" style="-fx-background-color: #01979B;" AnchorPane.leftAnchor="259.0">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/dfcgvbn.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="606.0" layoutY="134.0" mnemonicParsing="false" prefHeight="250.0" prefWidth="335.0" style="-fx-background-color: #01979B;" AnchorPane.rightAnchor="58.0">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/edtrfh.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Text fill="WHITE" layoutX="370.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30; -fx-font-weight: bold;" text="CLIENTS" AnchorPane.leftAnchor="370.0" AnchorPane.rightAnchor="511.373046875" />
+      <Text fill="WHITE" layoutX="666.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30; -fx-font-weight: bold;" text="CONDUCTEURS" AnchorPane.rightAnchor="113.654296875" />
+      <Text fill="WHITE" layoutX="358.0" layoutY="625.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30; -fx-font-weight: bold;" text="VOITURES" AnchorPane.leftAnchor="358.0" />
+      <Text fill="WHITE" layoutX="655.0" layoutY="624.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30; -fx-font-weight: bold;" text="RESERVATIONS" AnchorPane.rightAnchor="124.625" />
+   </children>
+</AnchorPane>

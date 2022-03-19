@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="1028.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="213.0" layoutY="55.0" prefHeight="61.0" prefWidth="877.0" style="-fx-background-color: #ffffff;" AnchorPane.leftAnchor="213.0" AnchorPane.rightAnchor="2.0">
+         <children>
+            <Text fill="#01979b" layoutX="60.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 20;" text="Liste Clients" wrappingWidth="301.0" />
+            <ImageView fitHeight="37.0" fitWidth="43.0" layoutX="10.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/pngegg%20(1).png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="CNI_recher" layoutX="641.0" layoutY="18.0" prefHeight="30.0" prefWidth="227.0" promptText="N°CNI" AnchorPane.rightAnchor="9.0" />
+            <ImageView fitHeight="31.0" fitWidth="43.0" layoutX="602.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="244.0">
+               <image>
+                  <Image url="@../images/search.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Separator layoutX="213.0" layoutY="120.0" prefHeight="4.0" prefWidth="877.0" AnchorPane.leftAnchor="213.0" AnchorPane.rightAnchor="2.0" />
+      <TableView fx:id="TableClient" layoutX="214.0" layoutY="124.0" prefHeight="536.0" prefWidth="877.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="214.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="124.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="52.0" text="N°" />
+          <TableColumn fx:id="nom" prefWidth="125.0" text="Nom" />
+            <TableColumn fx:id="prenom" prefWidth="221.0" text="Prenom" />
+            <TableColumn fx:id="cni" prefWidth="174.0" text="Numero CNI" />
+            <TableColumn fx:id="telephone" minWidth="0.0" prefWidth="213.0" text="Numero de tel" />
+        </columns>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TableView>
+   </children>
+</AnchorPane>
